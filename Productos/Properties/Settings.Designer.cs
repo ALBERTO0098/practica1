@@ -26,10 +26,20 @@ namespace Productos.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Host=104.196.199.232;Database=inventarios;Username=inventarios;Password=123#")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Host=35.231.19.114;Database=inventarios;Username=inventarios;Password=123#")]
         public string inventariosConnectionString {
             get {
                 return ((string)(this["inventariosConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Host=35.227.65.45;Database=postgres;Username=garcia;Persist Security Info=True")]
+        public string postgresConnectionString {
+            get {
+                return ((string)(this["postgresConnectionString"]));
             }
         }
     }
